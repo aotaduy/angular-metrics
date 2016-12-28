@@ -5,7 +5,7 @@
     "main": "dist/index.js",
     "typing": "dist/index.d.ts",
     "scripts": {
-        "build": "npm run clean && npm run tsc --",
+        "build": "npm run lint && npm run clean && npm run tsc --",
         "clean": "rimraf dist/",
         "develop": "npm run build && concurrently -r 'npm run watch' 'npm run start:watch'",
         "lint": "tslint src/**/*.ts",
@@ -26,6 +26,7 @@
     },
     "devDependencies": {
         "@types/node": "^6.0.48",
+        "chai": "^3.5.0",
         "concurrently": "^3.1.0",
         "istanbul": "^0.4.5",
         "mocha": "^3.2.0",
@@ -34,11 +35,19 @@
         "tslint": "^3.15.1",
         "typescript": "2.0.6"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rintoj/typescript-node-starter.git"
+    },
+    "author": "Rinto Jose",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rintoj/typescript-node-starter/issues"
+    },
+    "homepage": "https://github.com/rintoj/typescript-node-starter#readme",
     "keywords": [
         "NodeJS",
         "TypeScript",
         "Starter"
-    ],
-    "author": "Rinto Jose",
-    "license": "MIT"
+    ]
 }
