@@ -1,6 +1,6 @@
 {
   "name": "ts-node-starter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A starter project for NodeJS - TypeScript server application",
   "main": "dist/index.js",
   "typing": "dist/index.d.ts",
