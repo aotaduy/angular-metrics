@@ -1,3 +1,5 @@
-* v1.0
+* v1.1
+- add chai, instanbul and yarn
 
-Initial version
+* v1.0
+- Initial version
