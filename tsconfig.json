@@ -1,30 +1,34 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "allowSyntheticDefaultImports": true,
-        "sourceMap": true,
-        "declaration": true,
-        "strictNullChecks": false,
-        "baseUrl": "./src",
-        "outDir": "./dist",
-        "lib": [
-            "dom",
-            "es6"
-        ],
-        "types": [
-            "node"
-        ]
-    },
-    "exclude": [
-        "coverage",
-        "dist",
-        "node_modules",
-        "test"
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strictNullChecks": false,
+    "baseUrl": "./src",
+    "rootDir": "src",
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "es6"
     ],
-    "compileOnSave": false,
-    "buildOnSave": false
+    "types": [
+      "node",
+      "mocha"
+    ]
+  },
+  "exclude": [
+    "build",
+    "coverage",
+    "dist",
+    "docs",
+    "node_modules",
+    "tests"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
 }
